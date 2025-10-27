@@ -13,12 +13,7 @@ A modern, creative website built with React, Tailwind CSS, and PHP backend for c
 - PHP (contact API)
 
 ## Scripts
-- npm install
-- npm run dev
-- npm run build
-- npm run preview
-
-Then run the frontend dev server:
+run the frontend dev server:
 
 ```bash
 npm install
