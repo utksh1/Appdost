@@ -1,0 +1,40 @@
+# AppDost Innovative Website
+
+A modern, creative website built with React, Tailwind CSS, and PHP backend for contact API. Designed to be more innovative than the current AppDost interface with glassmorphism, gradients, micro-animations, and robust loading/error states.
+
+## Tech Stack
+- React + Vite
+- Tailwind CSS
+- Framer Motion (animations)
+- React Icons
+- React Intersection Observer (scroll animations)
+- React Hot Toast (notifications)
+- Axios (HTTP)
+- PHP (contact API)
+
+## Scripts
+- npm install
+- npm run dev
+- npm run build
+- npm run preview
+
+## Dev Server Proxy
+Frontend calls to `/api` are proxied to `http://localhost:8000` (see `vite.config.js`).
+
+## PHP Server
+Serve the PHP API from the `api/` directory:
+
+```bash
+php -S localhost:8000 -t api
+```
+
+Then run the frontend dev server:
+
+```bash
+npm run dev
+```
+
+## Notes
+- All sections include loading/error UX.
+- Contact form validates inputs and shows toast notifications.
+- Customize theme in `tailwind.config.js`.
