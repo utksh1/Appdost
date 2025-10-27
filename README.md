@@ -18,14 +18,6 @@ A modern, creative website built with React, Tailwind CSS, and PHP backend for c
 - npm run build
 - npm run preview
 
-## Dev Server Proxy
-Frontend calls to `/api` are proxied to `http://localhost:8000` (see `vite.config.js`).
-
-
-```bash
-php -S localhost:8000 -t api
-```
-
 Then run the frontend dev server:
 
 ```bash
