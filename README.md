@@ -10,7 +10,6 @@ A modern, creative website built with React, Tailwind CSS, and PHP backend for c
 - React Intersection Observer (scroll animations)
 - React Hot Toast (notifications)
 - Axios (HTTP)
-- PHP (contact API)
 
 ## Scripts
 run the frontend dev server:
