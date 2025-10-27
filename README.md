@@ -21,6 +21,10 @@ A modern, creative website built with React, Tailwind CSS, and PHP backend for c
 Then run the frontend dev server:
 
 ```bash
+npm install
+```
+
+```bash
 npm run dev
 ```
 
